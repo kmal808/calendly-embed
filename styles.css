@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+.calendly {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.calendly div {
+	width: 45%;
+}
+
+iframe {
+	width: 100%;
+	min-height: 80vh;
+	border: none;
+}
